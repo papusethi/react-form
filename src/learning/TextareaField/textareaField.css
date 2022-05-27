@@ -1,0 +1,54 @@
+.btf,
+.ftf,
+.stf {
+  margin-top: 1.5rem;
+}
+
+.stf,
+.ftf {
+  display: flex;
+  flex-direction: column;
+}
+
+.ftf__label,
+.stf__label {
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.btf__textarea,
+.stf__textarea,
+.ftf__textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: var(--color-text);
+  background: var(--color-white);
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.btf__textarea::placeholder,
+.ftf__textarea::placeholder,
+.stf__textarea::placeholder {
+  color: var(--color-text-light);
+  font-size: 16px;
+}
+
+.btf__textarea,
+.stf__textarea {
+  border: 1.5px solid var(--color-border);
+}
+
+.ftf {
+  background: var(--color-white);
+  border: 1.5px solid var(--color-border);
+}
+
+.ftf .ftf__label {
+  padding: 8px 12px 4px 12px;
+}
+.ftf .ftf__textarea {
+  padding: 0px 12px;
+}

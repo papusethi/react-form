@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.subject {
+  width: 100px;
+  height: 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px grey;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

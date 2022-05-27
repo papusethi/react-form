@@ -1,0 +1,8 @@
+body {
+  height: 100vh;
+  background: rgb(236, 239, 241);
+}
+
+.app {
+  padding: 2rem 0;
+}

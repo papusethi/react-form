@@ -1,0 +1,57 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.register__box {
+  width: 60%;
+  height: 80%;
+  padding: 2rem;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 8px 10px rgba(128, 128, 128, 0.401);
+}
+
+.register__form--container {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+
+.register__title {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.register__columns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.register__hobbies--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding-top: 4px;
+}
+
+.subjects__container {
+  display: flex;
+  gap: 10px;
+}
+
+.register__subjects--container {
+  color: var(--color-text);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.register__form--actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}

@@ -1,0 +1,29 @@
+.btn {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: rgb(53, 120, 183);
+}
+
+.outlined {
+  border: 1px solid rgb(53, 120, 183);
+}
+
+.primary {
+  border: 1px solid rgb(53, 120, 183);
+  background: rgb(53, 120, 183);
+  color: white;
+}
+
+.text-only {
+  color: rgb(53, 120, 183);
+}
+
+.disabled {
+  background: rgb(53, 120, 183, 0.7);
+  cursor: not-allowed;
+}

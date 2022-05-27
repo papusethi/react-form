@@ -1,0 +1,32 @@
+.chip {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1.5px solid #ddd;
+  background: #fff;
+  margin-top: 4px;
+}
+
+.chip__label {
+  font-size: 16px;
+}
+
+.chip__btn {
+  width: 16px;
+  height: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: grey;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+}

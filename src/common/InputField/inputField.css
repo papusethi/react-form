@@ -1,0 +1,61 @@
+.bif,
+.sif,
+.fif {
+  margin-top: 1rem;
+}
+
+.sif__label,
+.fif__label {
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.bif__input::placeholder,
+.sif__input::placeholder,
+.fif__input::placeholder {
+  color: var(--color-text-light);
+  font-size: 16px;
+}
+
+.bif__input,
+.sif__input,
+.fif__input {
+  width: 100%;
+  outline: none;
+  padding: 8px 12px;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-white);
+  color: var(--color-text);
+  font-size: 16px;
+}
+
+.sif,
+.fif {
+  display: flex;
+  flex-direction: column;
+}
+
+.sif__helper-text {
+  color: var(--color-text-light);
+  font-style: italic;
+  font-size: 14px;
+}
+
+.bif__error-text,
+.sif__error-text,
+.fif__error-text {
+  color: var(--color-danger);
+  font-size: 13px;
+}
+
+.fif {
+  padding: 8px 16px;
+  background: var(--color-white);
+  border: 1.5px solid var(--color-border);
+}
+
+.fif__input {
+  border: none;
+  padding: 4px 0px;
+  background: transparent;
+}

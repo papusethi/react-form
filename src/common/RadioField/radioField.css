@@ -1,0 +1,24 @@
+.radio {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio__label {
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.radio__container {
+  display: flex;
+  gap: 16px;
+}
+
+.radio__field {
+  margin-top: 0.3rem;
+}
+
+.radio__error-text {
+  color: var(--color-danger);
+  font-size: 13px;
+}
